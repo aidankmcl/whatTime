@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Adventure Time";
+    src: local("☺"),
+       url("http://typefront.com/fonts/825592719.ttf") format("truetype");
+}
+
+body {
+    transition: all 0.5s linear;
+    padding: 50px;
+    font: 24px "Adventure Time", Helvetica, Arial, sans-serif;
+    background-color: #2282FB;
+    color:whitesmoke;
+    text-align: center;
+}
+
+a {
+    color: #00B7FF;
+}
+
+#date, #days {
+    display:none;
+}
